@@ -675,7 +675,7 @@ def crack(idf,pwv):
 	bo = random.choice([m,k,h,b,u,x])
 	sys.stdout.write(f"\rUMAIR {P}[{b}{loop}{P}/{u}{len(id)}{P}]—{P}[{H}{ok}{P}]—{P}[{k}{cp}{x}]—[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
 	sys.stdout.flush()
-	ua = random.choice('[Mozilla/5.0 (Linux; Android 10; Redmi Note 7) AppleWebKit/537.36 (KHTML, like Gecko) JioPages/4.0 Chrome/101.0.4951.41 Mobile Safari/537.36',
+	ua = random.choice(['Mozilla/5.0 (Linux; Android 10; Redmi Note 7) AppleWebKit/537.36 (KHTML, like Gecko) JioPages/4.0 Chrome/101.0.4951.41 Mobile Safari/537.36',
 	'Mozilla/5.0 (Linux; Android 9; Redmi Note 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36 OPR/73.0.3843.69488',
 	'Mozilla/5.0 (Linux; U; Android 8.1.0; Redmi 5A Build/OPM2.171026.006.H1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36 OPR/39.1.2254.137527',
 	'Mozilla/5.0 (Linux; Android 8.1.0; Redmi 5A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile SFB/15.0.0024.18 Mobile Safari/537.36',
